@@ -1,0 +1,324 @@
+*{	padding: 0;
+	margin: 0 auto;
+	box-sizing:border-box;
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+	
+}
+.row{
+		display: flex;
+		flex-wrap: wrap;
+		margin: -15px 0px;
+		
+}
+.row>*{
+		width: 100%;
+		padding: 0 15px;
+}
+
+.col-lg-1{
+		width: 8.33%;
+		
+}
+.col-lg-2{
+	width: 16.66%;
+}
+.col-lg-3{
+		width: 25%;
+		
+}
+.col-lg-4{
+		width: 33.33%;
+		}
+.col-lg-5{
+		width: 41.66%;
+		
+}
+.col-lg-6{
+		width: 50%;
+		
+}
+.col-lg-7{
+		width: 58.33%;
+		
+}
+.col-lg-8{
+		width: 66.66%;
+		
+}
+.col-lg-9{
+		width: 75%;
+		
+}
+.col-lg-10{
+		width: 83.33%;
+		
+}
+.col-lg-11{
+		width: 91.66%;
+}
+.col-lg-12{
+		width: 100%;
+}
+.justify-content-start{
+	justify-content: flex-start !important;
+}
+.justify-content-between{
+	justify-content: space-between !important;
+}
+.justify-content-end{
+	justify-content: flex-end !important;
+}
+.justify-content-around{
+	justify-content: space-around !important;
+}
+.justify-content-evenly{
+	justify-content: space-evenly !important;
+}
+.align-items-start{
+		align-items: flex-start !important;
+}
+.align-items-end{
+		align-items: flex-end !important;
+}
+.align-items-center{
+		align-items: center !important;
+}
+.align-items-baseline{
+	align-items: baseline !important;
+}
+
+/*================Header style=================*/
+.head-top{
+	background-color: #fff;
+	border-bottom: solid 1px #6610f2;
+}
+.head-info{
+	background-color: #39312f;
+	padding: 25px 25px;
+}
+.contact-info{
+	height: 30px;
+	background-color: #6610f2;
+}
+.info-btn{
+	background-color: #6610f2;
+	height: 100%;
+}
+/*==============header style-=========*/
+/*==============Navigation section start-=========*/
+.Navigation{
+	padding: 21px 0px;
+	background-color: white;
+	margin: auto 0;
+	height: 40px;
+}
+.logo{
+	background-color: #6610f2;
+	height: 30px;
+}
+.nav-bar{
+	background-color: #6610f2;
+	height: 30px;
+}
+/*==============Navigation section end-=========*/
+/*==============banner section start-=========*/
+.banner{
+	background-color:#39312f;
+	padding: 140px 180px;
+	}
+.banner-content{
+	background-color: #6610f2;
+	height: 140px;
+}
+/*==============banner section end-=========*/
+/*===============whychoosesection=========*/
+.relative{
+		background-color: white;
+}
+.whychoose{
+	position: relative;
+	top:-80px;
+	background-color: #6610f2;
+	height: 300px;
+}
+.choose-1{
+	position: relative;
+	top:-80px;
+	background-color: #6610f2;
+	height: 220px;
+}
+/*=========why choose section end=======*/
+/*=========About section start=======*/
+.abt-section{
+	background-color: #6610f2;
+	height: 340px;
+	
+}
+.abt{
+	background-color: #39312f;
+	height: 250px;
+	margin-top: 50px;
+}
+.Enim{
+	background-color: #39312f;
+	height: 250px;
+	margin-top: 50px;
+}
+/*=========About section end=======*/
+/*================Overflow section start=================*/
+.Overflow{
+		height:200px;
+		background-color: #39312f;
+}
+.over-1{
+		margin-top: 50px;
+		height: 100px;
+		background-color: #6610f2;
+}
+/*================Overflow section end=================*/
+./*================Service section start=============*/
+.Service{
+		
+		height: 400px;
+		background-color: #9a6700;
+}
+.Ser-1{
+		margin: 50px;
+		height: 200px;
+		width:270px;
+		background-color: #6610f2;
+}
+/*================Service section End=============/
+/*================Self section start=============*/
+.Self{
+	height:600px;
+	background-color: #39312f;
+}
+.self-1{
+		height: 250px;
+		background-color: #6610f2;
+		border-radius: 5%;
+		
+}
+.self-2{
+		height: 180px;
+		background-color: white;
+		border-radius: 5%;
+		margin-top: 30px;
+}
+
+/*================Self section start=============/
+/*======Transition section start============*/
+.Transition{
+		height:400px;
+		background-color: white;
+}
+.Trans-1{
+		margin-top: 100px;
+		margin-left: 50px;
+		margin-right: 50px;
+		height: 200px;
+		background-color: #6610f2;
+}
+/*======Transition section end============*/
+/*======portfolio section start============*/
+.portfolio{
+		height:800px;
+		background-color: #39312f;
+}
+.port1{
+		margin-top: 50px;
+		margin-left: 50px;
+		margin-right: 50px;
+		height: 200px;
+		background-color: #6610f2;
+}
+/*======portfolio section end==============*/
+/*======team section start============*/
+.team{
+		height:280px;
+		background-color: #6610f2;
+}
+.team-1{
+		margin-top: 50px;
+		margin-left: 50px;
+		margin-right: 50px;
+		height: 180px;
+		background-color: #39312f;
+}
+/*======team section end==============*/
+/*======Pricing section start==============*/
+.Pricing{
+		height:280px;
+		background-color: #39312f;
+}
+.Price-1{
+		margin-top: 50px;
+		margin-left: 50px;
+		margin-right: 50px;
+		height: 180px;
+		background-color: #6610f2;
+}
+/*======Pricing section end==============*/
+/*======faq section start=============*/
+.faq{
+		height:600px;
+		background-color: #6610f2;
+}
+.faq-1{
+		margin-top: 50px;
+		margin-left: 50px;
+		margin-right: 50px;
+		height: 60px;
+		background-color: white;
+}
+/*======faq section end=============*/
+/*=======contact section start====*/
+.contact{
+		height:700px;
+		background-color: #39312f;
+}
+.contact-1{
+		margin-top: 50px;
+		margin-left: 50px;
+		margin-right: 50px;
+		height: 160px;
+		background-color: white;
+}
+.contact-2{
+		margin-top: 50px;
+		margin-left: 50px;
+		margin-right: 50px;
+		height: 400px;
+		background-color: white;
+}
+
+/*=======contact section end====*/
+/*=======flexor section start====*/
+.flexor{
+		height:230px;
+		background-color: #6610f2;
+}
+.flexor-1{
+		margin: 25px 0px 25px;
+		height: 150px;
+		background-color: white;
+}
+/*=======flexor section end====*/
+/*===========copywright ============*/
+.Copywrite{
+		height:160px;
+		background-color: #39312f;
+}
+.copy-1{
+		margin-top: 50px;
+		margin-left: 50px;
+		margin-right: 50px;
+		height: 50px;
+		background-color: #6610f2;
+}
+/*===========copywright ============*/
